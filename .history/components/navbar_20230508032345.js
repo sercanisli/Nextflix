@@ -1,0 +1,21 @@
+import Link from 'next/link'
+import React from 'react'
+import PopularMovie from './PopularMovie'
+
+const Navbar = () => {
+  return (
+    <nav className="bg-gray-700 text-center">
+        <div className="font-bold text-neutral-100 p-4 max-w-7xl mx-auto container tracking-widest font-navbarFont">
+            <Link href="/" legacyBehavior>
+                <a className="text-base md:text-2xl ">NEXTFLIX</a>
+            </Link>
+            <Link href="`https://api.themoviedb.org/3/movie//popular?api_key=7727a1c97bc5205612f2769b66dcf4fe&language=en`" legacyBehavior>
+                <a className="text-base md:text-2xl ">NEXTFLIX</a>
+            </Link>
+        </div>
+    </nav>
+  )
+}
+
+export default Navbar
+
