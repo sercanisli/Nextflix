@@ -1,5 +1,16 @@
 This project was developed using the themoviedb.org APIs. Popular movies are called by API request while the application is standing up. Again, movie filtering according to categories is done by API request. TailwindCSS is used to develop the UI in the application. Next.js version 13.4.1 is used.
 
+Home Page;
+![Populer Movie](https://github.com/sercanisli/Nextflix/assets/128610192/69b4a614-61df-4985-a67f-fc35ddd39ef9)
+
+
+Categories Page;
+![Category Page](https://github.com/sercanisli/Nextflix/assets/128610192/f7b7a093-cc0b-4f3c-ac1a-330adfe9ed54)
+
+
+Movie Detail Page;
+![Movie Detail](https://github.com/sercanisli/Nextflix/assets/128610192/5c8bf6a6-58bc-4b9c-9a2d-3ef187b52e79)
+
 
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
